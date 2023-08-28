@@ -1,0 +1,19 @@
+ let userName='shery';
+ let  userage=16;
+   function nameandage( name,age){
+    if(name[0]==='A'|| name[0]==='a'  && age>15){
+        console.log('person name along with its age')
+    }
+   else   if(name[0]==='X'  && age==null){
+        console.log('unknown DATA')
+    }
+    else  if(name.length==10  || age>0){
+        console.log('NAME CONTAINS 10 LETTERS')
+    }
+    else{
+console.log('data is faulty');
+    }
+   }
+   nameandage(userName,userage);  
+
+
